@@ -19,3 +19,21 @@ body {
 	background-color: $white;
 	font-family: 'Outfit', sans-serif;
 }
+
+.box {
+	margin: 1em;
+	border-radius: 25%;
+	&-top {
+		&-img {
+			width: 50%;
+			height: 50%;
+			border-radius: 25%;
+		}
+	}
+	&-bottom {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1em;
+	}
+}

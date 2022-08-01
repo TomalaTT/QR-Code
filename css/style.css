@@ -24,4 +24,28 @@ body {
   background-color: white;
   font-family: 'Outfit', sans-serif;
 }
+
+.box {
+  margin: 1em;
+  border-radius: 25%;
+}
+
+.box-top-img {
+  width: 50%;
+  height: 50%;
+  border-radius: 25%;
+}
+
+.box-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
 /*# sourceMappingURL=style.css.map */
