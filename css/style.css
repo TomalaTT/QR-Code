@@ -21,19 +21,36 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: white;
+  background-color: #d6e2f0;
   font-family: 'Outfit', sans-serif;
+  height: 100vh;
 }
 
 .box {
   margin: 1em;
-  border-radius: 25%;
+  padding: 2em;
+  border-radius: 8px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 20px black;
+          box-shadow: 0px 0px 20px black;
 }
 
-.box-top-img {
-  width: 50%;
-  height: 50%;
-  border-radius: 25%;
+.box-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-top img {
+  width: 100%;
+  height: 80%;
+  border-radius: 8px;
 }
 
 .box-bottom {
@@ -46,6 +63,27 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 1em;
+  text-align: center;
+}
+
+.box-bottom--title {
+  font-size: 3rem;
+  margin: 1em 0em 1em 0em;
+}
+
+.box-bottom--text {
+  color: #1f3251;
+  font-size: 2rem;
+}
+
+@media (min-width: 1440px) {
+  .box {
+    width: 500px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
